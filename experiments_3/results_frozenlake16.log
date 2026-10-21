@@ -1,0 +1,230 @@
+SFHFFHFFFFFHFHFF
+FFHFFFHHFFFFFFFH
+FFFFFFFFFHFFHHFF
+FFFFFFFFFFFFFFFF
+FFFFFFFFHFFFFFFF
+FFHFFFFFFFFFFFFF
+FFFHHFFHFFFFFHFF
+FFFHFFFFFFFFFFFF
+FFFHFFFFHFFFFFHF
+FFFFFFHHFFFFFFFF
+FHFFFFHHFHFFFHFF
+FHHFHHFFFFFFFFHF
+FHFFFHFFFHFFFFFF
+FFFFFHFFFFHFFFFH
+FHFFFFFFHFHHFFFF
+HFFFFHFFFFFHFFFG
+[frozenlake16_sparse] 6 configuraciones x 5 ejecuciones = 30 entrenamientos de 200000 pasos
+  [1/30] baseline       sarsa      run1  eval_reward=   0.000  (30.6s)
+  [2/30] baseline       sarsa      run0  eval_reward=   0.000  (31.9s)
+  [3/30] baseline       sarsa      run3  eval_reward=   0.000  (32.8s)
+  [4/30] baseline       sarsa      run4  eval_reward=   0.000  (32.8s)
+  [5/30] baseline       qlearning  run1  eval_reward=   0.000  (32.9s)
+  [6/30] baseline       qlearning  run0  eval_reward=   0.000  (32.9s)
+  [7/30] baseline       sarsa      run2  eval_reward=   0.000  (33.1s)
+  [8/30] baseline       qlearning  run2  eval_reward=   0.000  (37.9s)
+  [9/30] baseline       qlearning  run3  eval_reward=   0.000  (52.0s)
+  [10/30] eps_decay      sarsa      run0  eval_reward=   0.000  (47.2s)
+  [11/30] baseline       qlearning  run4  eval_reward=   0.000  (55.1s)
+  [12/30] baseline       esarsa     run0  eval_reward=   0.000  (61.7s)
+  [13/30] baseline       esarsa     run4  eval_reward=   0.000  (64.3s)
+  [14/30] baseline       esarsa     run2  eval_reward=   0.000  (64.8s)
+  [15/30] baseline       esarsa     run1  eval_reward=   0.000  (67.2s)
+  [16/30] baseline       esarsa     run3  eval_reward=   0.000  (70.9s)
+  [17/30] eps_decay      sarsa      run1  eval_reward=   0.000  (59.5s)
+  [18/30] eps_decay      sarsa      run3  eval_reward=   0.000  (56.8s)
+  [19/30] eps_decay      sarsa      run2  eval_reward=   0.000  (60.0s)
+  [20/30] eps_decay      sarsa      run4  eval_reward=   0.000  (55.0s)
+  [21/30] eps_decay      qlearning  run1  eval_reward=   0.000  (60.0s)
+  [22/30] eps_decay      qlearning  run0  eval_reward=   0.000  (62.6s)
+  [23/30] eps_decay      qlearning  run2  eval_reward=   0.000  (63.4s)
+  [24/30] eps_decay      qlearning  run3  eval_reward=   0.000  (67.2s)
+  [25/30] eps_decay      qlearning  run4  eval_reward=   0.000  (47.3s)
+  [26/30] eps_decay      esarsa     run0  eval_reward=   0.000  (57.9s)
+  [27/30] eps_decay      esarsa     run1  eval_reward=   0.000  (56.2s)
+  [28/30] eps_decay      esarsa     run2  eval_reward=   0.000  (65.5s)
+  [29/30] eps_decay      esarsa     run3  eval_reward=   0.000  (63.2s)
+  [30/30] eps_decay      esarsa     run4  eval_reward=   0.000  (61.0s)
+----- 223.7 secs. -----
+
+=== frozenlake16_sparse: recompensa media de evaluación (política greedy, 100 episodios) sobre 5 ejecuciones ===
+config         algo           media      std       min       max
+baseline       sarsa          0.000    0.000     0.000     0.000
+baseline       qlearning      0.000    0.000     0.000     0.000
+baseline       esarsa         0.000    0.000     0.000     0.000
+eps_decay      sarsa          0.000    0.000     0.000     0.000
+eps_decay      qlearning      0.000    0.000     0.000     0.000
+eps_decay      esarsa         0.000    0.000     0.000     0.000
+
+Resultados guardados en /home/garai/RL/experiments_3/results/frozenlake16_sparse_summary.csv
+Logs de TensorBoard en /home/garai/RL/experiments_3/logs/frozenlake16_sparse  ->  tensorboard --logdir /home/garai/RL/experiments_3/logs/frozenlake16_sparse
+[frozenlake16_shaped] 27 configuraciones x 5 ejecuciones = 135 entrenamientos de 200000 pasos
+  [1/135] baseline       sarsa      run1  eval_reward=   1.000  (52.0s)
+  [2/135] baseline       sarsa      run3  eval_reward=   1.000  (52.2s)
+  [3/135] baseline       sarsa      run0  eval_reward=   1.000  (52.5s)
+  [4/135] baseline       sarsa      run2  eval_reward=   0.000  (51.0s)
+  [5/135] baseline       sarsa      run4  eval_reward=   1.000  (56.8s)
+  [6/135] baseline       qlearning  run2  eval_reward=   1.000  (57.5s)
+  [7/135] baseline       qlearning  run0  eval_reward=   1.000  (57.6s)
+  [8/135] baseline       qlearning  run1  eval_reward=   1.000  (58.0s)
+  [9/135] baseline       qlearning  run4  eval_reward=   1.000  (42.7s)
+  [10/135] lr=0.01        sarsa      run0  eval_reward=   1.000  (40.3s)
+  [11/135] baseline       qlearning  run3  eval_reward=   1.000  (47.8s)
+  [12/135] baseline       esarsa     run0  eval_reward=   1.000  (52.0s)
+  [13/135] baseline       esarsa     run3  eval_reward=   1.000  (51.2s)
+  [14/135] baseline       esarsa     run2  eval_reward=   1.000  (51.5s)
+  [15/135] baseline       esarsa     run4  eval_reward=   1.000  (53.1s)
+  [16/135] baseline       esarsa     run1  eval_reward=   1.000  (57.1s)
+  [17/135] lr=0.01        sarsa      run1  eval_reward=   1.000  (47.2s)
+  [18/135] lr=0.01        sarsa      run3  eval_reward=   1.000  (48.5s)
+  [19/135] lr=0.01        sarsa      run2  eval_reward=   1.000  (50.6s)
+  [20/135] lr=0.01        sarsa      run4  eval_reward=   1.000  (48.0s)
+  [21/135] lr=0.01        qlearning  run3  eval_reward=   1.000  (46.4s)
+  [22/135] lr=0.01        qlearning  run1  eval_reward=   1.000  (52.1s)
+  [23/135] lr=0.01        qlearning  run0  eval_reward=   1.000  (53.3s)
+  [24/135] lr=0.01        qlearning  run2  eval_reward=   1.000  (51.8s)
+  [25/135] lr=0.01        qlearning  run4  eval_reward=   1.000  (44.0s)
+  [26/135] lr=0.5         sarsa      run1  eval_reward=   0.000  (38.2s)
+  [27/135] lr=0.5         sarsa      run0  eval_reward=   0.000  (41.2s)
+  [28/135] lr=0.01        esarsa     run0  eval_reward=   1.000  (58.0s)
+  [29/135] lr=0.01        esarsa     run1  eval_reward=   1.000  (60.3s)
+  [30/135] lr=0.01        esarsa     run2  eval_reward=   1.000  (58.1s)
+  [31/135] lr=0.01        esarsa     run4  eval_reward=   1.000  (64.2s)
+  [32/135] lr=0.01        esarsa     run3  eval_reward=   1.000  (66.9s)
+  [33/135] lr=0.5         sarsa      run2  eval_reward=   0.000  (50.8s)
+  [34/135] lr=0.5         sarsa      run4  eval_reward=   0.000  (52.7s)
+  [35/135] lr=0.5         sarsa      run3  eval_reward=   0.000  (58.6s)
+  [36/135] lr=0.5         qlearning  run0  eval_reward=   1.000  (77.3s)
+  [37/135] lr=0.5         qlearning  run2  eval_reward=   1.000  (79.4s)
+  [38/135] lr=0.5         qlearning  run1  eval_reward=   1.000  (81.8s)
+  [39/135] lr=0.5         qlearning  run4  eval_reward=   1.000  (72.2s)
+  [40/135] lr=0.5         qlearning  run3  eval_reward=   1.000  (80.8s)
+  [41/135] lr=0.5         esarsa     run0  eval_reward=   1.000  (85.3s)
+  [42/135] lr=0.5         esarsa     run1  eval_reward=   1.000  (89.1s)
+  [43/135] lr=0.5_decay   sarsa      run0  eval_reward=   0.000  (64.4s)
+  [44/135] lr=0.5         esarsa     run2  eval_reward=   1.000  (96.6s)
+  [45/135] lr=0.5_decay   sarsa      run1  eval_reward=   0.000  (73.2s)
+  [46/135] lr=0.5         esarsa     run3  eval_reward=   1.000  (98.9s)
+  [47/135] lr=0.5_decay   sarsa      run2  eval_reward=   0.000  (80.7s)
+  [48/135] lr=0.5         esarsa     run4  eval_reward=   1.000  (105.6s)
+  [49/135] lr=0.5_decay   sarsa      run3  eval_reward=   0.000  (90.4s)
+  [50/135] lr=0.5_decay   sarsa      run4  eval_reward=   1.000  (87.1s)
+  [51/135] lr=0.5_decay   qlearning  run0  eval_reward=   1.000  (105.4s)
+  [52/135] lr=0.5_decay   qlearning  run1  eval_reward=   1.000  (108.2s)
+  [53/135] lr=0.5_decay   qlearning  run2  eval_reward=   1.000  (103.4s)
+  [54/135] lr=0.5_decay   qlearning  run3  eval_reward=   1.000  (95.1s)
+  [55/135] lr=0.5_decay   qlearning  run4  eval_reward=   1.000  (93.6s)
+  [56/135] lr=0.5_decay   esarsa     run0  eval_reward=   1.000  (97.1s)
+  [57/135] lr=0.5_decay   esarsa     run1  eval_reward=   1.000  (78.4s)
+  [58/135] dr=0.9         sarsa      run0  eval_reward=   1.000  (38.4s)
+  [59/135] lr=0.5_decay   esarsa     run2  eval_reward=   1.000  (77.5s)
+  [60/135] dr=0.9         sarsa      run1  eval_reward=   1.000  (39.1s)
+  [61/135] lr=0.5_decay   esarsa     run4  eval_reward=   1.000  (50.4s)
+  [62/135] dr=0.9         sarsa      run3  eval_reward=   1.000  (30.1s)
+  [63/135] lr=0.5_decay   esarsa     run3  eval_reward=   1.000  (57.6s)
+  [64/135] dr=0.9         sarsa      run4  eval_reward=   1.000  (28.9s)
+  [65/135] dr=0.9         sarsa      run2  eval_reward=   1.000  (44.1s)
+  [66/135] dr=0.9         qlearning  run2  eval_reward=   1.000  (52.1s)
+  [67/135] dr=0.9         qlearning  run3  eval_reward=   1.000  (54.1s)
+  [68/135] dr=0.9         qlearning  run0  eval_reward=   1.000  (59.2s)
+  [69/135] dr=0.9         qlearning  run1  eval_reward=   1.000  (66.1s)
+  [70/135] dr=0.9         qlearning  run4  eval_reward=   1.000  (61.8s)
+  [71/135] dr=0.9         esarsa     run1  eval_reward=   1.000  (63.1s)
+  [72/135] dr=0.9         esarsa     run0  eval_reward=   1.000  (72.9s)
+  [73/135] dr=0.9         esarsa     run2  eval_reward=   1.000  (76.0s)
+  [74/135] dr=1.0         sarsa      run0  eval_reward=   1.000  (41.8s)
+  [75/135] dr=0.9         esarsa     run4  eval_reward=   0.000  (42.5s)
+  [76/135] dr=1.0         sarsa      run1  eval_reward=   0.000  (42.0s)
+  [77/135] dr=1.0         sarsa      run3  eval_reward=   1.000  (36.5s)
+  [78/135] dr=1.0         sarsa      run2  eval_reward=   1.000  (47.3s)
+  [79/135] dr=1.0         sarsa      run4  eval_reward=   0.000  (33.7s)
+  [80/135] dr=0.9         esarsa     run3  eval_reward=   1.000  (62.5s)
+  [81/135] dr=1.0         qlearning  run0  eval_reward=   1.000  (45.4s)
+  [82/135] dr=1.0         qlearning  run2  eval_reward=   1.000  (41.5s)
+  [83/135] dr=1.0         qlearning  run3  eval_reward=   1.000  (40.9s)
+  [84/135] dr=1.0         qlearning  run1  eval_reward=   1.000  (51.3s)
+  [85/135] dr=1.0         qlearning  run4  eval_reward=   1.000  (42.8s)
+  [86/135] dr=1.0         esarsa     run0  eval_reward=   1.000  (47.9s)
+  [87/135] dr=1.0         esarsa     run2  eval_reward=   1.000  (50.6s)
+  [88/135] dr=1.0         esarsa     run1  eval_reward=   1.000  (52.4s)
+  [89/135] dr=1.0         esarsa     run3  eval_reward=   1.000  (49.6s)
+  [90/135] eps=0.01       sarsa      run0  eval_reward=   1.000  (35.1s)
+  [91/135] eps=0.01       sarsa      run2  eval_reward=   1.000  (32.5s)
+  [92/135] eps=0.01       sarsa      run1  eval_reward=   1.000  (36.7s)
+  [93/135] dr=1.0         esarsa     run4  eval_reward=   1.000  (50.9s)
+  [94/135] eps=0.01       qlearning  run0  eval_reward=   1.000  (39.2s)
+  [95/135] eps=0.01       sarsa      run3  eval_reward=   1.000  (44.3s)
+  [96/135] eps=0.01       sarsa      run4  eval_reward=   1.000  (41.2s)
+  [97/135] eps=0.01       qlearning  run1  eval_reward=   1.000  (48.3s)
+  [98/135] eps=0.01       qlearning  run3  eval_reward=   1.000  (50.6s)
+  [99/135] eps=0.01       qlearning  run2  eval_reward=   1.000  (52.8s)
+  [100/135] eps=0.01       qlearning  run4  eval_reward=   1.000  (51.6s)
+  [101/135] eps=0.01       esarsa     run0  eval_reward=   1.000  (54.8s)
+  [102/135] eps=0.01       esarsa     run2  eval_reward=   1.000  (50.9s)
+  [103/135] eps=0.01       esarsa     run3  eval_reward=   1.000  (54.4s)
+  [104/135] eps=0.01       esarsa     run1  eval_reward=   1.000  (57.4s)
+  [105/135] eps=0.3        sarsa      run1  eval_reward=   1.000  (43.3s)
+  [106/135] eps=0.3        sarsa      run0  eval_reward=   1.000  (44.3s)
+  [107/135] eps=0.3        sarsa      run2  eval_reward=   0.000  (45.5s)
+  [108/135] eps=0.01       esarsa     run4  eval_reward=   1.000  (57.5s)
+  [109/135] eps=0.3        sarsa      run3  eval_reward=   0.000  (44.9s)
+  [110/135] eps=0.3        sarsa      run4  eval_reward=   0.000  (43.1s)
+  [111/135] eps=0.3        qlearning  run0  eval_reward=   1.000  (55.0s)
+  [112/135] eps=0.3        qlearning  run1  eval_reward=   1.000  (57.1s)
+  [113/135] eps=0.3        qlearning  run3  eval_reward=   1.000  (61.2s)
+  [114/135] eps=0.3        qlearning  run2  eval_reward=   1.000  (63.6s)
+  [115/135] eps=0.3        qlearning  run4  eval_reward=   1.000  (59.5s)
+  [116/135] eps=0.3        esarsa     run0  eval_reward=   1.000  (65.7s)
+  [117/135] eps=0.3        esarsa     run1  eval_reward=   1.000  (65.0s)
+  [118/135] eps=0.3        esarsa     run2  eval_reward=   1.000  (66.2s)
+  [119/135] eps=0.3        esarsa     run3  eval_reward=   1.000  (61.3s)
+  [120/135] eps=0.3        esarsa     run4  eval_reward=   1.000  (58.8s)
+  [121/135] eps_decay      sarsa      run0  eval_reward=   1.000  (43.9s)
+  [122/135] eps_decay      sarsa      run1  eval_reward=   1.000  (46.7s)
+  [123/135] eps_decay      sarsa      run2  eval_reward=   1.000  (47.6s)
+  [124/135] eps_decay      sarsa      run3  eval_reward=   1.000  (48.8s)
+  [125/135] eps_decay      sarsa      run4  eval_reward=   1.000  (48.7s)
+  [126/135] eps_decay      qlearning  run0  eval_reward=   1.000  (51.8s)
+  [127/135] eps_decay      qlearning  run1  eval_reward=   1.000  (45.3s)
+  [128/135] eps_decay      qlearning  run2  eval_reward=   1.000  (50.0s)
+  [129/135] eps_decay      qlearning  run3  eval_reward=   1.000  (49.7s)
+  [130/135] eps_decay      qlearning  run4  eval_reward=   1.000  (44.8s)
+  [131/135] eps_decay      esarsa     run0  eval_reward=   1.000  (50.3s)
+  [132/135] eps_decay      esarsa     run1  eval_reward=   1.000  (45.8s)
+  [133/135] eps_decay      esarsa     run2  eval_reward=   1.000  (44.3s)
+  [134/135] eps_decay      esarsa     run3  eval_reward=   1.000  (43.8s)
+  [135/135] eps_decay      esarsa     run4  eval_reward=   1.000  (44.1s)
+----- 997.1 secs. -----
+
+=== frozenlake16_shaped: recompensa media de evaluación (política greedy, 100 episodios) sobre 5 ejecuciones ===
+config         algo           media      std       min       max
+baseline       qlearning      1.000    0.000     1.000     1.000
+baseline       esarsa         1.000    0.000     1.000     1.000
+lr=0.01        sarsa          1.000    0.000     1.000     1.000
+lr=0.01        qlearning      1.000    0.000     1.000     1.000
+lr=0.01        esarsa         1.000    0.000     1.000     1.000
+lr=0.5         qlearning      1.000    0.000     1.000     1.000
+lr=0.5         esarsa         1.000    0.000     1.000     1.000
+lr=0.5_decay   qlearning      1.000    0.000     1.000     1.000
+lr=0.5_decay   esarsa         1.000    0.000     1.000     1.000
+dr=0.9         sarsa          1.000    0.000     1.000     1.000
+dr=0.9         qlearning      1.000    0.000     1.000     1.000
+dr=1.0         qlearning      1.000    0.000     1.000     1.000
+dr=1.0         esarsa         1.000    0.000     1.000     1.000
+eps=0.01       sarsa          1.000    0.000     1.000     1.000
+eps=0.01       qlearning      1.000    0.000     1.000     1.000
+eps=0.01       esarsa         1.000    0.000     1.000     1.000
+eps=0.3        qlearning      1.000    0.000     1.000     1.000
+eps=0.3        esarsa         1.000    0.000     1.000     1.000
+eps_decay      sarsa          1.000    0.000     1.000     1.000
+eps_decay      qlearning      1.000    0.000     1.000     1.000
+eps_decay      esarsa         1.000    0.000     1.000     1.000
+baseline       sarsa          0.800    0.447     0.000     1.000
+dr=0.9         esarsa         0.800    0.447     0.000     1.000
+dr=1.0         sarsa          0.600    0.548     0.000     1.000
+eps=0.3        sarsa          0.400    0.548     0.000     1.000
+lr=0.5_decay   sarsa          0.200    0.447     0.000     1.000
+lr=0.5         sarsa          0.000    0.000     0.000     0.000
+
+Resultados guardados en /home/garai/RL/experiments_3/results/frozenlake16_shaped_summary.csv
+Logs de TensorBoard en /home/garai/RL/experiments_3/logs/frozenlake16_shaped  ->  tensorboard --logdir /home/garai/RL/experiments_3/logs/frozenlake16_shaped

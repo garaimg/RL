@@ -1,0 +1,170 @@
+[taxi] 27 configuraciones x 5 ejecuciones = 135 entrenamientos de 200000 pasos
+  [1/135] baseline       sarsa      run3  eval_reward=   7.880  (26.1s)
+  [2/135] baseline       sarsa      run1  eval_reward=   8.060  (28.1s)
+  [3/135] baseline       qlearning  run2  eval_reward=   7.630  (29.1s)
+  [4/135] baseline       sarsa      run4  eval_reward=   7.610  (29.5s)
+  [5/135] baseline       sarsa      run0  eval_reward=   7.740  (30.4s)
+  [6/135] baseline       qlearning  run1  eval_reward=   8.060  (31.4s)
+  [7/135] baseline       sarsa      run2  eval_reward=   7.630  (32.8s)
+  [8/135] baseline       qlearning  run0  eval_reward=   7.740  (36.4s)
+  [9/135] lr=0.01        sarsa      run0  eval_reward=-235.730  (13.5s)
+  [10/135] baseline       esarsa     run1  eval_reward=   8.060  (22.9s)
+  [11/135] baseline       esarsa     run2  eval_reward=   7.630  (24.9s)
+  [12/135] baseline       esarsa     run3  eval_reward=   7.880  (23.8s)
+  [13/135] baseline       qlearning  run3  eval_reward=   7.880  (29.8s)
+  [14/135] baseline       qlearning  run4  eval_reward=   7.690  (29.0s)
+  [15/135] baseline       esarsa     run4  eval_reward=   7.690  (28.0s)
+  [16/135] baseline       esarsa     run0  eval_reward=   7.740  (32.1s)
+  [17/135] lr=0.01        sarsa      run1  eval_reward=-271.190  (15.3s)
+  [18/135] lr=0.01        sarsa      run2  eval_reward=-200.000  (17.0s)
+  [19/135] lr=0.01        sarsa      run4  eval_reward=-217.910  (17.0s)
+  [20/135] lr=0.01        sarsa      run3  eval_reward=-360.200  (18.2s)
+  [21/135] lr=0.01        qlearning  run0  eval_reward=-253.640  (18.6s)
+  [22/135] lr=0.01        qlearning  run1  eval_reward=-200.000  (19.1s)
+  [23/135] lr=0.01        qlearning  run2  eval_reward=-253.550  (17.6s)
+  [24/135] lr=0.01        qlearning  run3  eval_reward=-200.000  (18.8s)
+  [25/135] lr=0.01        qlearning  run4  eval_reward=-235.910  (19.0s)
+  [26/135] lr=0.01        esarsa     run0  eval_reward=-324.560  (21.3s)
+  [27/135] lr=0.01        esarsa     run1  eval_reward=-253.820  (20.6s)
+  [28/135] lr=0.01        esarsa     run2  eval_reward=-217.910  (22.2s)
+  [29/135] lr=0.01        esarsa     run3  eval_reward=-279.220  (22.5s)
+  [30/135] lr=0.01        esarsa     run4  eval_reward=-289.280  (21.8s)
+  [31/135] lr=0.5         sarsa      run0  eval_reward= -19.700  (24.4s)
+  [32/135] lr=0.5         sarsa      run1  eval_reward= -79.500  (22.0s)
+  [33/135] lr=0.5         sarsa      run2  eval_reward= -81.200  (25.0s)
+  [34/135] lr=0.5         sarsa      run3  eval_reward=-104.420  (24.8s)
+  [35/135] lr=0.5         sarsa      run4  eval_reward= -83.680  (23.2s)
+  [36/135] lr=0.5         qlearning  run0  eval_reward=   7.740  (25.9s)
+  [37/135] lr=0.5         qlearning  run2  eval_reward=   7.630  (24.9s)
+  [38/135] lr=0.5         qlearning  run1  eval_reward=   8.200  (26.2s)
+  [39/135] lr=0.5         qlearning  run4  eval_reward=   7.470  (28.6s)
+  [40/135] lr=0.5         qlearning  run3  eval_reward=   8.230  (29.0s)
+  [41/135] lr=0.5_decay   sarsa      run0  eval_reward=   7.210  (23.2s)
+  [42/135] lr=0.5         esarsa     run0  eval_reward=   7.740  (36.1s)
+  [43/135] lr=0.5         esarsa     run1  eval_reward=   8.060  (32.1s)
+  [44/135] lr=0.5         esarsa     run2  eval_reward=   7.760  (31.9s)
+  [45/135] lr=0.5         esarsa     run3  eval_reward=   7.880  (32.1s)
+  [46/135] lr=0.5         esarsa     run4  eval_reward=   7.690  (32.4s)
+  [47/135] lr=0.5_decay   sarsa      run1  eval_reward=   6.550  (25.5s)
+  [48/135] lr=0.5_decay   sarsa      run2  eval_reward=   7.040  (26.2s)
+  [49/135] lr=0.5_decay   sarsa      run4  eval_reward=   7.280  (24.3s)
+  [50/135] lr=0.5_decay   sarsa      run3  eval_reward=   6.890  (28.1s)
+  [51/135] lr=0.5_decay   qlearning  run1  eval_reward=   8.060  (27.6s)
+  [52/135] lr=0.5_decay   qlearning  run0  eval_reward=   7.290  (29.1s)
+  [53/135] lr=0.5_decay   qlearning  run2  eval_reward=   7.630  (30.0s)
+  [54/135] lr=0.5_decay   qlearning  run4  eval_reward=   7.770  (28.2s)
+  [55/135] lr=0.5_decay   qlearning  run3  eval_reward=   7.740  (29.6s)
+  [56/135] lr=0.5_decay   esarsa     run0  eval_reward=   7.740  (34.3s)
+  [57/135] lr=0.5_decay   esarsa     run1  eval_reward=   7.790  (33.8s)
+  [58/135] lr=0.5_decay   esarsa     run2  eval_reward=   7.420  (32.8s)
+  [59/135] dr=0.9         sarsa      run2  eval_reward= -18.310  (22.6s)
+  [60/135] dr=0.9         sarsa      run0  eval_reward=   3.690  (24.0s)
+  [61/135] dr=0.9         sarsa      run1  eval_reward=  -8.710  (24.6s)
+  [62/135] lr=0.5_decay   esarsa     run3  eval_reward=   7.900  (35.2s)
+  [63/135] lr=0.5_decay   esarsa     run4  eval_reward=   7.690  (35.3s)
+  [64/135] dr=0.9         sarsa      run3  eval_reward=  -4.490  (25.7s)
+  [65/135] dr=0.9         sarsa      run4  eval_reward= -12.630  (23.4s)
+  [66/135] dr=0.9         qlearning  run1  eval_reward=   8.060  (26.0s)
+  [67/135] dr=0.9         qlearning  run3  eval_reward=   7.880  (27.8s)
+  [68/135] dr=0.9         qlearning  run0  eval_reward=   7.740  (32.5s)
+  [69/135] dr=0.9         qlearning  run2  eval_reward=   7.630  (32.3s)
+  [70/135] dr=0.9         qlearning  run4  eval_reward=   7.690  (29.0s)
+  [71/135] dr=0.9         esarsa     run0  eval_reward=  -2.330  (33.1s)
+  [72/135] dr=0.9         esarsa     run1  eval_reward=  -3.960  (37.9s)
+  [73/135] dr=0.9         esarsa     run2  eval_reward=   6.040  (38.1s)
+  [74/135] dr=1.0         sarsa      run1  eval_reward=   8.060  (28.3s)
+  [75/135] dr=1.0         sarsa      run0  eval_reward=   7.740  (29.0s)
+  [76/135] dr=0.9         esarsa     run3  eval_reward=  -4.230  (37.0s)
+  [77/135] dr=0.9         esarsa     run4  eval_reward=  -2.240  (35.8s)
+  [78/135] dr=1.0         sarsa      run2  eval_reward=   7.630  (31.1s)
+  [79/135] dr=1.0         sarsa      run3  eval_reward=   7.880  (29.7s)
+  [80/135] dr=1.0         sarsa      run4  eval_reward=   7.690  (31.7s)
+  [81/135] dr=1.0         qlearning  run1  eval_reward=   8.060  (29.2s)
+  [82/135] dr=1.0         qlearning  run3  eval_reward=   7.880  (31.9s)
+  [83/135] dr=1.0         qlearning  run0  eval_reward=   7.740  (36.4s)
+  [84/135] dr=1.0         qlearning  run2  eval_reward=   7.630  (35.7s)
+  [85/135] dr=1.0         qlearning  run4  eval_reward=   7.690  (34.5s)
+  [86/135] dr=1.0         esarsa     run0  eval_reward=   7.740  (35.3s)
+  [87/135] dr=1.0         esarsa     run1  eval_reward=   8.060  (38.1s)
+  [88/135] dr=1.0         esarsa     run2  eval_reward=   7.630  (37.0s)
+  [89/135] dr=1.0         esarsa     run3  eval_reward=   7.880  (30.9s)
+  [90/135] eps=0.01       sarsa      run0  eval_reward=   7.740  (26.7s)
+  [91/135] eps=0.01       sarsa      run3  eval_reward=   7.880  (24.4s)
+  [92/135] eps=0.01       sarsa      run1  eval_reward=   8.060  (27.6s)
+  [93/135] eps=0.01       sarsa      run2  eval_reward=   7.630  (26.9s)
+  [94/135] dr=1.0         esarsa     run4  eval_reward=   7.690  (33.2s)
+  [95/135] eps=0.01       sarsa      run4  eval_reward=   7.690  (24.2s)
+  [96/135] eps=0.01       qlearning  run0  eval_reward=   7.740  (24.3s)
+  [97/135] eps=0.01       qlearning  run1  eval_reward=   8.060  (22.8s)
+  [98/135] eps=0.01       qlearning  run2  eval_reward=   7.630  (22.7s)
+  [99/135] eps=0.01       qlearning  run3  eval_reward=   7.880  (22.8s)
+  [100/135] eps=0.01       qlearning  run4  eval_reward=   7.770  (22.8s)
+  [101/135] eps=0.01       esarsa     run0  eval_reward=   7.740  (28.1s)
+  [102/135] eps=0.01       esarsa     run1  eval_reward=   8.060  (27.6s)
+  [103/135] eps=0.01       esarsa     run2  eval_reward=   7.630  (33.3s)
+  [104/135] eps=0.3        sarsa      run0  eval_reward= -68.420  (17.5s)
+  [105/135] eps=0.3        sarsa      run2  eval_reward= -66.650  (19.0s)
+  [106/135] eps=0.3        sarsa      run1  eval_reward= -22.840  (20.6s)
+  [107/135] eps=0.01       esarsa     run3  eval_reward=   7.880  (29.5s)
+  [108/135] eps=0.01       esarsa     run4  eval_reward=   7.690  (28.1s)
+  [109/135] eps=0.3        sarsa      run3  eval_reward= -39.500  (18.5s)
+  [110/135] eps=0.3        sarsa      run4  eval_reward= -68.540  (17.6s)
+  [111/135] eps=0.3        qlearning  run1  eval_reward=   8.060  (18.4s)
+  [112/135] eps=0.3        qlearning  run0  eval_reward=   7.740  (19.4s)
+  [113/135] eps=0.3        qlearning  run3  eval_reward=   7.880  (19.2s)
+  [114/135] eps=0.3        qlearning  run2  eval_reward=   7.630  (21.9s)
+  [115/135] eps=0.3        qlearning  run4  eval_reward=   7.690  (22.3s)
+  [116/135] eps=0.3        esarsa     run0  eval_reward= -54.430  (21.7s)
+  [117/135] eps=0.3        esarsa     run1  eval_reward= -33.120  (24.0s)
+  [118/135] eps=0.3        esarsa     run2  eval_reward= -50.070  (22.7s)
+  [119/135] eps=0.3        esarsa     run3  eval_reward= -72.330  (24.6s)
+  [120/135] eps=0.3        esarsa     run4  eval_reward= -53.820  (24.3s)
+  [121/135] eps_decay      sarsa      run0  eval_reward=   7.740  (23.4s)
+  [122/135] eps_decay      sarsa      run1  eval_reward=   8.060  (25.9s)
+  [123/135] eps_decay      sarsa      run2  eval_reward=   7.630  (25.2s)
+  [124/135] eps_decay      sarsa      run3  eval_reward=   7.520  (26.5s)
+  [125/135] eps_decay      qlearning  run0  eval_reward=   7.740  (24.3s)
+  [126/135] eps_decay      sarsa      run4  eval_reward=   7.690  (26.1s)
+  [127/135] eps_decay      qlearning  run2  eval_reward=   7.630  (27.0s)
+  [128/135] eps_decay      qlearning  run1  eval_reward=   8.060  (27.3s)
+  [129/135] eps_decay      qlearning  run3  eval_reward=   7.880  (29.0s)
+  [130/135] eps_decay      qlearning  run4  eval_reward=   7.690  (32.4s)
+  [131/135] eps_decay      esarsa     run0  eval_reward=   7.740  (39.8s)
+  [132/135] eps_decay      esarsa     run2  eval_reward=   7.630  (36.6s)
+  [133/135] eps_decay      esarsa     run3  eval_reward=   7.880  (38.1s)
+  [134/135] eps_decay      esarsa     run1  eval_reward=   8.060  (41.7s)
+  [135/135] eps_decay      esarsa     run4  eval_reward=   7.690  (38.2s)
+----- 491.0 secs. -----
+
+=== taxi: recompensa media de evaluación (política greedy, 100 episodios) sobre 5 ejecuciones ===
+config         algo           media      std       min       max
+lr=0.5         qlearning      7.854    0.343     7.470     8.230
+lr=0.5         esarsa         7.826    0.148     7.690     8.060
+eps=0.01       qlearning      7.816    0.163     7.630     8.060
+baseline       qlearning      7.800    0.172     7.630     8.060
+baseline       esarsa         7.800    0.172     7.630     8.060
+dr=0.9         qlearning      7.800    0.172     7.630     8.060
+dr=1.0         sarsa          7.800    0.172     7.630     8.060
+dr=1.0         qlearning      7.800    0.172     7.630     8.060
+dr=1.0         esarsa         7.800    0.172     7.630     8.060
+eps=0.01       sarsa          7.800    0.172     7.630     8.060
+eps=0.01       esarsa         7.800    0.172     7.630     8.060
+eps=0.3        qlearning      7.800    0.172     7.630     8.060
+eps_decay      qlearning      7.800    0.172     7.630     8.060
+eps_decay      esarsa         7.800    0.172     7.630     8.060
+baseline       sarsa          7.784    0.188     7.610     8.060
+eps_decay      sarsa          7.728    0.203     7.520     8.060
+lr=0.5_decay   esarsa         7.708    0.179     7.420     7.900
+lr=0.5_decay   qlearning      7.698    0.278     7.290     8.060
+lr=0.5_decay   sarsa          6.994    0.291     6.550     7.280
+dr=0.9         esarsa        -1.344    4.227    -4.230     6.040
+dr=0.9         sarsa         -8.090    8.324   -18.310     3.690
+eps=0.3        esarsa       -52.754   13.963   -72.330   -33.120
+eps=0.3        sarsa        -53.190   20.960   -68.540   -22.840
+lr=0.5         sarsa        -73.700   31.817  -104.420   -19.700
+lr=0.01        qlearning   -228.620   27.106  -253.640  -200.000
+lr=0.01        sarsa       -257.006   63.406  -360.200  -200.000
+lr=0.01        esarsa      -272.958   39.890  -324.560  -217.910
+
+Resultados guardados en /home/garai/RL/experiments_3/results/taxi_summary.csv
+Logs de TensorBoard en /home/garai/RL/experiments_3/logs/taxi  ->  tensorboard --logdir /home/garai/RL/experiments_3/logs/taxi

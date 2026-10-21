@@ -1,0 +1,170 @@
+[cliffwalking] 27 configuraciones x 5 ejecuciones = 135 entrenamientos de 200000 pasos
+  [1/135] baseline       sarsa      run0  eval_reward= -15.000  (24.2s)
+  [2/135] baseline       sarsa      run1  eval_reward= -17.000  (24.5s)
+  [3/135] baseline       sarsa      run2  eval_reward= -17.000  (25.6s)
+  [4/135] baseline       sarsa      run3  eval_reward= -17.000  (27.4s)
+  [5/135] baseline       qlearning  run2  eval_reward= -13.000  (28.2s)
+  [6/135] baseline       sarsa      run4  eval_reward= -17.000  (28.3s)
+  [7/135] baseline       qlearning  run1  eval_reward= -13.000  (29.1s)
+  [8/135] baseline       qlearning  run0  eval_reward= -13.000  (30.5s)
+  [9/135] baseline       qlearning  run3  eval_reward= -13.000  (34.0s)
+  [10/135] lr=0.01        sarsa      run0  eval_reward= -15.000  (31.4s)
+  [11/135] baseline       qlearning  run4  eval_reward= -13.000  (39.1s)
+  [12/135] baseline       esarsa     run2  eval_reward= -15.000  (40.9s)
+  [13/135] baseline       esarsa     run0  eval_reward= -15.000  (43.6s)
+  [14/135] baseline       esarsa     run3  eval_reward= -15.000  (42.0s)
+  [15/135] baseline       esarsa     run1  eval_reward= -15.000  (44.2s)
+  [16/135] baseline       esarsa     run4  eval_reward= -15.000  (43.3s)
+  [17/135] lr=0.01        sarsa      run1  eval_reward= -15.000  (24.3s)
+  [18/135] lr=0.01        sarsa      run2  eval_reward= -15.000  (26.1s)
+  [19/135] lr=0.01        sarsa      run3  eval_reward= -15.000  (25.2s)
+  [20/135] lr=0.01        sarsa      run4  eval_reward= -15.000  (27.3s)
+  [21/135] lr=0.01        qlearning  run0  eval_reward= -13.000  (28.9s)
+  [22/135] lr=0.01        qlearning  run1  eval_reward= -13.000  (29.1s)
+  [23/135] lr=0.01        qlearning  run3  eval_reward= -13.000  (28.2s)
+  [24/135] lr=0.01        qlearning  run2  eval_reward= -13.000  (31.7s)
+  [25/135] lr=0.01        qlearning  run4  eval_reward= -13.000  (31.1s)
+  [26/135] lr=0.01        esarsa     run0  eval_reward= -15.000  (33.4s)
+  [27/135] lr=0.01        esarsa     run1  eval_reward= -15.000  (39.8s)
+  [28/135] lr=0.01        esarsa     run2  eval_reward= -15.000  (36.9s)
+  [29/135] lr=0.01        esarsa     run3  eval_reward= -15.000  (36.7s)
+  [30/135] lr=0.5         sarsa      run0  eval_reward=-500.000  (31.2s)
+  [31/135] lr=0.5         sarsa      run1  eval_reward= -17.000  (37.3s)
+  [32/135] lr=0.01        esarsa     run4  eval_reward= -15.000  (41.4s)
+  [33/135] lr=0.5         sarsa      run2  eval_reward= -17.000  (28.1s)
+  [34/135] lr=0.5         sarsa      run3  eval_reward= -17.000  (28.3s)
+  [35/135] lr=0.5         sarsa      run4  eval_reward= -17.000  (32.9s)
+  [36/135] lr=0.5         qlearning  run1  eval_reward= -13.000  (32.2s)
+  [37/135] lr=0.5         qlearning  run0  eval_reward= -13.000  (37.8s)
+  [38/135] lr=0.5         qlearning  run2  eval_reward= -13.000  (34.9s)
+  [39/135] lr=0.5         qlearning  run3  eval_reward= -13.000  (32.9s)
+  [40/135] lr=0.5         qlearning  run4  eval_reward= -13.000  (37.6s)
+  [41/135] lr=0.5         esarsa     run0  eval_reward= -15.000  (43.2s)
+  [42/135] lr=0.5         esarsa     run1  eval_reward= -15.000  (44.5s)
+  [43/135] lr=0.5         esarsa     run2  eval_reward= -15.000  (43.5s)
+  [44/135] lr=0.5_decay   sarsa      run0  eval_reward= -17.000  (38.2s)
+  [45/135] lr=0.5_decay   sarsa      run1  eval_reward= -17.000  (37.5s)
+  [46/135] lr=0.5         esarsa     run3  eval_reward= -15.000  (53.6s)
+  [47/135] lr=0.5_decay   sarsa      run2  eval_reward= -17.000  (47.6s)
+  [48/135] lr=0.5         esarsa     run4  eval_reward= -15.000  (55.4s)
+  [49/135] lr=0.5_decay   sarsa      run3  eval_reward= -17.000  (44.1s)
+  [50/135] lr=0.5_decay   sarsa      run4  eval_reward= -17.000  (41.6s)
+  [51/135] lr=0.5_decay   qlearning  run0  eval_reward= -13.000  (45.8s)
+  [52/135] lr=0.5_decay   qlearning  run2  eval_reward= -13.000  (44.9s)
+  [53/135] lr=0.5_decay   qlearning  run1  eval_reward= -13.000  (47.1s)
+  [54/135] lr=0.5_decay   qlearning  run3  eval_reward= -13.000  (42.2s)
+  [55/135] lr=0.5_decay   qlearning  run4  eval_reward= -13.000  (41.6s)
+  [56/135] lr=0.5_decay   esarsa     run0  eval_reward= -15.000  (43.5s)
+  [57/135] lr=0.5_decay   esarsa     run1  eval_reward= -15.000  (43.3s)
+  [58/135] lr=0.5_decay   esarsa     run2  eval_reward= -15.000  (42.8s)
+  [59/135] dr=0.9         sarsa      run0  eval_reward= -17.000  (32.3s)
+  [60/135] lr=0.5_decay   esarsa     run3  eval_reward= -15.000  (40.3s)
+  [61/135] dr=0.9         sarsa      run1  eval_reward= -17.000  (29.8s)
+  [62/135] lr=0.5_decay   esarsa     run4  eval_reward= -15.000  (40.8s)
+  [63/135] dr=0.9         sarsa      run2  eval_reward= -17.000  (31.2s)
+  [64/135] dr=0.9         sarsa      run3  eval_reward= -17.000  (31.8s)
+  [65/135] dr=0.9         sarsa      run4  eval_reward= -17.000  (36.5s)
+  [66/135] dr=0.9         qlearning  run0  eval_reward= -13.000  (34.1s)
+  [67/135] dr=0.9         qlearning  run1  eval_reward= -13.000  (38.1s)
+  [68/135] dr=0.9         qlearning  run2  eval_reward= -13.000  (36.1s)
+  [69/135] dr=0.9         qlearning  run3  eval_reward= -13.000  (35.7s)
+  [70/135] dr=0.9         qlearning  run4  eval_reward= -13.000  (37.6s)
+  [71/135] dr=0.9         esarsa     run0  eval_reward= -15.000  (40.9s)
+  [72/135] dr=0.9         esarsa     run1  eval_reward= -15.000  (39.3s)
+  [73/135] dr=0.9         esarsa     run2  eval_reward= -15.000  (42.1s)
+  [74/135] dr=0.9         esarsa     run3  eval_reward= -15.000  (39.0s)
+  [75/135] dr=1.0         sarsa      run0  eval_reward= -15.000  (33.8s)
+  [76/135] dr=1.0         sarsa      run1  eval_reward= -17.000  (33.2s)
+  [77/135] dr=1.0         sarsa      run2  eval_reward= -15.000  (30.4s)
+  [78/135] dr=0.9         esarsa     run4  eval_reward= -15.000  (40.9s)
+  [79/135] dr=1.0         sarsa      run3  eval_reward= -15.000  (36.1s)
+  [80/135] dr=1.0         sarsa      run4  eval_reward= -17.000  (35.9s)
+  [81/135] dr=1.0         qlearning  run1  eval_reward= -13.000  (34.1s)
+  [82/135] dr=1.0         qlearning  run0  eval_reward= -13.000  (35.5s)
+  [83/135] dr=1.0         qlearning  run3  eval_reward= -13.000  (36.8s)
+  [84/135] dr=1.0         qlearning  run2  eval_reward= -13.000  (38.0s)
+  [85/135] dr=1.0         qlearning  run4  eval_reward= -13.000  (35.2s)
+  [86/135] dr=1.0         esarsa     run0  eval_reward= -15.000  (46.1s)
+  [87/135] dr=1.0         esarsa     run2  eval_reward= -15.000  (38.6s)
+  [88/135] dr=1.0         esarsa     run1  eval_reward= -15.000  (42.0s)
+  [89/135] dr=1.0         esarsa     run3  eval_reward= -15.000  (37.0s)
+  [90/135] dr=1.0         esarsa     run4  eval_reward= -15.000  (41.6s)
+  [91/135] eps=0.01       sarsa      run0  eval_reward= -15.000  (33.2s)
+  [92/135] eps=0.01       sarsa      run2  eval_reward= -15.000  (35.0s)
+  [93/135] eps=0.01       sarsa      run1  eval_reward= -15.000  (36.6s)
+  [94/135] eps=0.01       sarsa      run3  eval_reward= -15.000  (34.9s)
+  [95/135] eps=0.01       sarsa      run4  eval_reward= -15.000  (34.5s)
+  [96/135] eps=0.01       qlearning  run0  eval_reward= -13.000  (35.5s)
+  [97/135] eps=0.01       qlearning  run1  eval_reward= -13.000  (37.3s)
+  [98/135] eps=0.01       qlearning  run2  eval_reward= -13.000  (36.2s)
+  [99/135] eps=0.01       qlearning  run3  eval_reward= -13.000  (36.0s)
+  [100/135] eps=0.01       qlearning  run4  eval_reward= -13.000  (33.7s)
+  [101/135] eps=0.01       esarsa     run0  eval_reward= -15.000  (42.7s)
+  [102/135] eps=0.3        sarsa      run0  eval_reward= -17.000  (25.1s)
+  [103/135] eps=0.01       esarsa     run1  eval_reward= -15.000  (41.1s)
+  [104/135] eps=0.01       esarsa     run2  eval_reward= -15.000  (40.5s)
+  [105/135] eps=0.01       esarsa     run3  eval_reward= -15.000  (37.7s)
+  [106/135] eps=0.3        sarsa      run2  eval_reward= -17.000  (23.5s)
+  [107/135] eps=0.3        sarsa      run1  eval_reward= -17.000  (24.9s)
+  [108/135] eps=0.01       esarsa     run4  eval_reward= -15.000  (37.7s)
+  [109/135] eps=0.3        sarsa      run3  eval_reward= -17.000  (23.5s)
+  [110/135] eps=0.3        sarsa      run4  eval_reward= -17.000  (23.9s)
+  [111/135] eps=0.3        qlearning  run1  eval_reward= -13.000  (24.6s)
+  [112/135] eps=0.3        qlearning  run0  eval_reward= -13.000  (25.1s)
+  [113/135] eps=0.3        qlearning  run4  eval_reward= -13.000  (24.8s)
+  [114/135] eps=0.3        qlearning  run3  eval_reward= -13.000  (25.1s)
+  [115/135] eps=0.3        qlearning  run2  eval_reward= -13.000  (26.8s)
+  [116/135] eps=0.3        esarsa     run0  eval_reward= -17.000  (31.9s)
+  [117/135] eps=0.3        esarsa     run1  eval_reward= -17.000  (38.7s)
+  [118/135] eps_decay      sarsa      run1  eval_reward= -17.000  (27.7s)
+  [119/135] eps=0.3        esarsa     run2  eval_reward= -17.000  (31.3s)
+  [120/135] eps_decay      sarsa      run0  eval_reward= -17.000  (30.2s)
+  [121/135] eps=0.3        esarsa     run3  eval_reward= -17.000  (32.7s)
+  [122/135] eps_decay      sarsa      run2  eval_reward= -17.000  (33.1s)
+  [123/135] eps=0.3        esarsa     run4  eval_reward= -17.000  (35.8s)
+  [124/135] eps_decay      sarsa      run3  eval_reward= -17.000  (28.1s)
+  [125/135] eps_decay      sarsa      run4  eval_reward= -17.000  (27.5s)
+  [126/135] eps_decay      qlearning  run1  eval_reward= -13.000  (32.5s)
+  [127/135] eps_decay      qlearning  run0  eval_reward= -13.000  (32.9s)
+  [128/135] eps_decay      qlearning  run4  eval_reward= -13.000  (33.5s)
+  [129/135] eps_decay      qlearning  run2  eval_reward= -13.000  (38.7s)
+  [130/135] eps_decay      qlearning  run3  eval_reward= -13.000  (38.7s)
+  [131/135] eps_decay      esarsa     run0  eval_reward= -17.000  (37.7s)
+  [132/135] eps_decay      esarsa     run1  eval_reward= -17.000  (41.1s)
+  [133/135] eps_decay      esarsa     run2  eval_reward= -17.000  (42.9s)
+  [134/135] eps_decay      esarsa     run4  eval_reward= -17.000  (44.0s)
+  [135/135] eps_decay      esarsa     run3  eval_reward= -17.000  (44.6s)
+----- 625.3 secs. -----
+
+=== cliffwalking: recompensa media de evaluación (política greedy, 100 episodios) sobre 5 ejecuciones ===
+config         algo           media      std       min       max
+baseline       qlearning    -13.000    0.000   -13.000   -13.000
+lr=0.01        qlearning    -13.000    0.000   -13.000   -13.000
+lr=0.5         qlearning    -13.000    0.000   -13.000   -13.000
+lr=0.5_decay   qlearning    -13.000    0.000   -13.000   -13.000
+dr=0.9         qlearning    -13.000    0.000   -13.000   -13.000
+dr=1.0         qlearning    -13.000    0.000   -13.000   -13.000
+eps=0.01       qlearning    -13.000    0.000   -13.000   -13.000
+eps=0.3        qlearning    -13.000    0.000   -13.000   -13.000
+eps_decay      qlearning    -13.000    0.000   -13.000   -13.000
+baseline       esarsa       -15.000    0.000   -15.000   -15.000
+lr=0.01        sarsa        -15.000    0.000   -15.000   -15.000
+lr=0.01        esarsa       -15.000    0.000   -15.000   -15.000
+lr=0.5         esarsa       -15.000    0.000   -15.000   -15.000
+lr=0.5_decay   esarsa       -15.000    0.000   -15.000   -15.000
+dr=0.9         esarsa       -15.000    0.000   -15.000   -15.000
+dr=1.0         esarsa       -15.000    0.000   -15.000   -15.000
+eps=0.01       sarsa        -15.000    0.000   -15.000   -15.000
+eps=0.01       esarsa       -15.000    0.000   -15.000   -15.000
+dr=1.0         sarsa        -15.800    1.095   -17.000   -15.000
+baseline       sarsa        -16.600    0.894   -17.000   -15.000
+lr=0.5_decay   sarsa        -17.000    0.000   -17.000   -17.000
+dr=0.9         sarsa        -17.000    0.000   -17.000   -17.000
+eps=0.3        sarsa        -17.000    0.000   -17.000   -17.000
+eps=0.3        esarsa       -17.000    0.000   -17.000   -17.000
+eps_decay      sarsa        -17.000    0.000   -17.000   -17.000
+eps_decay      esarsa       -17.000    0.000   -17.000   -17.000
+lr=0.5         sarsa       -113.600  216.004  -500.000   -17.000
+
+Resultados guardados en /home/garai/RL/experiments_3/results/cliffwalking_summary.csv
+Logs de TensorBoard en /home/garai/RL/experiments_3/logs/cliffwalking  ->  tensorboard --logdir /home/garai/RL/experiments_3/logs/cliffwalking

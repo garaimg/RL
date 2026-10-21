@@ -45,3 +45,151 @@ Average reward per episode: -200.0000
 Average steps per episode: 200.0000
 [I 2026-10-21 16:28:38,242] Trial 10 finished with value: -200.0 and parameters: {'algo_name': 'esarsa', 'n_bins': 40, 'learning_rate': 0.11243152758948396, 'learning_rate_decay': 0.9, 'lr_episodes_decay': 1000, 'discount_rate': 0.9, 'epsilon': 0.35000000000000003, 'epsilon_decay': 0.995}. Best is trial 9 with value: -171.03.
 New observation space: Discrete(900)
+Average reward per episode: -199.7000
+Average steps per episode: 199.7000
+[I 2026-10-21 16:29:19,863] Trial 11 finished with value: -199.7 and parameters: {'algo_name': 'sarsa', 'n_bins': 30, 'learning_rate': 0.6280345931580931, 'learning_rate_decay': 0.97, 'lr_episodes_decay': 100, 'discount_rate': 0.91, 'epsilon': 0.4, 'epsilon_decay': 1.0}. Best is trial 9 with value: -171.03.
+New observation space: Discrete(1600)
+Average reward per episode: -185.8900
+Average steps per episode: 185.8900
+[I 2026-10-21 16:29:49,293] Trial 12 finished with value: -185.89 and parameters: {'algo_name': 'qlearning', 'n_bins': 40, 'learning_rate': 0.6045082899486819, 'learning_rate_decay': 0.97, 'lr_episodes_decay': 1000, 'discount_rate': 0.9500000000000001, 'epsilon': 0.4, 'epsilon_decay': 0.995}. Best is trial 9 with value: -171.03.
+New observation space: Discrete(1600)
+Average reward per episode: -199.9600
+Average steps per episode: 199.9600
+[I 2026-10-21 16:30:23,436] Trial 13 finished with value: -199.96 and parameters: {'algo_name': 'esarsa', 'n_bins': 40, 'learning_rate': 0.14866002088959304, 'learning_rate_decay': 0.9400000000000001, 'lr_episodes_decay': 1000, 'discount_rate': 0.9400000000000001, 'epsilon': 0.30000000000000004, 'epsilon_decay': 0.995}. Best is trial 9 with value: -171.03.
+New observation space: Discrete(900)
+Average reward per episode: -191.5000
+Average steps per episode: 191.5000
+[I 2026-10-21 16:30:56,048] Trial 14 finished with value: -191.5 and parameters: {'algo_name': 'sarsa', 'n_bins': 30, 'learning_rate': 0.38722016848024393, 'learning_rate_decay': 0.9500000000000001, 'lr_episodes_decay': 100, 'discount_rate': 1.0, 'epsilon': 0.30000000000000004, 'epsilon_decay': 1.0}. Best is trial 9 with value: -171.03.
+New observation space: Discrete(900)
+Average reward per episode: -191.8900
+Average steps per episode: 191.8900
+[I 2026-10-21 16:31:20,586] Trial 15 finished with value: -191.89 and parameters: {'algo_name': 'sarsa', 'n_bins': 30, 'learning_rate': 0.21619559158138604, 'learning_rate_decay': 0.9, 'lr_episodes_decay': 100, 'discount_rate': 0.97, 'epsilon': 0.4, 'epsilon_decay': 1.0}. Best is trial 9 with value: -171.03.
+New observation space: Discrete(1600)
+Average reward per episode: -193.7900
+Average steps per episode: 193.7900
+[I 2026-10-21 16:31:53,436] Trial 16 finished with value: -193.79 and parameters: {'algo_name': 'esarsa', 'n_bins': 40, 'learning_rate': 0.703000541396704, 'learning_rate_decay': 1.0, 'lr_episodes_decay': 1000, 'discount_rate': 0.9500000000000001, 'epsilon': 0.25, 'epsilon_decay': 0.995}. Best is trial 9 with value: -171.03.
+New observation space: Discrete(1600)
+Average reward per episode: -191.3000
+Average steps per episode: 191.3000
+[I 2026-10-21 16:32:30,907] Trial 17 finished with value: -191.3 and parameters: {'algo_name': 'esarsa', 'n_bins': 40, 'learning_rate': 0.6954631221125914, 'learning_rate_decay': 0.96, 'lr_episodes_decay': 10000, 'discount_rate': 0.9500000000000001, 'epsilon': 0.30000000000000004, 'epsilon_decay': 0.995}. Best is trial 9 with value: -171.03.
+New observation space: Discrete(900)
+Average reward per episode: -200.0000
+Average steps per episode: 200.0000
+[I 2026-10-21 16:33:01,163] Trial 18 finished with value: -200.0 and parameters: {'algo_name': 'sarsa', 'n_bins': 30, 'learning_rate': 0.0663893883795706, 'learning_rate_decay': 0.9, 'lr_episodes_decay': 100, 'discount_rate': 0.9400000000000001, 'epsilon': 0.25, 'epsilon_decay': 1.0}. Best is trial 9 with value: -171.03.
+New observation space: Discrete(1600)
+Average reward per episode: -197.5600
+Average steps per episode: 197.5600
+[I 2026-10-21 16:33:31,257] Trial 19 finished with value: -197.56 and parameters: {'algo_name': 'esarsa', 'n_bins': 40, 'learning_rate': 0.8713780601621173, 'learning_rate_decay': 0.9500000000000001, 'lr_episodes_decay': 10000, 'discount_rate': 0.9, 'epsilon': 0.4, 'epsilon_decay': 0.999}. Best is trial 9 with value: -171.03.
+New observation space: Discrete(1600)
+Average reward per episode: -196.0500
+Average steps per episode: 196.0500
+[I 2026-10-21 16:34:02,729] Trial 20 finished with value: -196.05 and parameters: {'algo_name': 'esarsa', 'n_bins': 40, 'learning_rate': 0.4216619955520869, 'learning_rate_decay': 0.98, 'lr_episodes_decay': 1000, 'discount_rate': 0.92, 'epsilon': 0.30000000000000004, 'epsilon_decay': 0.999}. Best is trial 9 with value: -171.03.
+New observation space: Discrete(1600)
+Exception in thread Thread-22:
+Traceback (most recent call last):
+  File "/home/garai/miniconda3/envs/rl/lib/python3.12/threading.py", line 1075, in _bootstrap_inner
+    self.run()
+  File "/home/garai/miniconda3/envs/rl/lib/python3.12/site-packages/tensorboard/summary/writer/event_file_writer.py", line 244, in run
+    self._run()
+  File "/home/garai/miniconda3/envs/rl/lib/python3.12/site-packages/tensorboard/summary/writer/event_file_writer.py", line 275, in _run
+    self._record_writer.write(data)
+  File "/home/garai/miniconda3/envs/rl/lib/python3.12/site-packages/tensorboard/summary/writer/record_writer.py", line 40, in write
+    self._writer.write(header + header_crc + data + footer_crc)
+  File "/home/garai/miniconda3/envs/rl/lib/python3.12/site-packages/tensorboard/compat/tensorflow_stub/io/gfile.py", line 775, in write
+    self.fs.append(self.filename, file_content, self.binary_mode)
+  File "/home/garai/miniconda3/envs/rl/lib/python3.12/site-packages/tensorboard/compat/tensorflow_stub/io/gfile.py", line 167, in append
+    self._write(filename, file_content, "ab" if binary_mode else "a")
+  File "/home/garai/miniconda3/envs/rl/lib/python3.12/site-packages/tensorboard/compat/tensorflow_stub/io/gfile.py", line 171, in _write
+    with io.open(filename, mode, encoding=encoding) as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: b'./logs/mountaincar_optuna//trial21_qlearning_20261021-163403/events.out.tfevents.1792593243.Deusto-2022-019.26430.21'
+[W 2026-10-21 16:34:25,314] Trial 21 failed with parameters: {'algo_name': 'qlearning', 'n_bins': 40, 'learning_rate': 0.9622268665941233, 'learning_rate_decay': 0.99, 'lr_episodes_decay': 1000, 'discount_rate': 0.91, 'epsilon': 0.4, 'epsilon_decay': 0.995} because of the following error: FileNotFoundError(2, 'No such file or directory').
+Traceback (most recent call last):
+  File "/home/garai/miniconda3/envs/rl/lib/python3.12/site-packages/optuna/study/_optimize.py", line 206, in _run_trial
+    value_or_values = func(trial)
+                      ^^^^^^^^^^^
+  File "/home/garai/RL/experiments_3/experiment_3.4_mountaincar_optuna.py", line 45, in objective
+    avg_reward, avg_steps = evaluate_policy(algo.env, algo.q_table, max_policy, n_episodes=100)
+  File "/home/garai/RL/experiments_3/../deustorl-20261005T183853Z-1-001/deustorl/Q_learning.py", line 41, in learn
+    tblogger.log(episode_reward, episode_steps)
+  File "/home/garai/RL/experiments_3/../deustorl-20261005T183853Z-1-001/deustorl/helpers.py", line 106, in log
+    self.tb_writer.add_scalar("train/reward", average_rewards, self.total_steps)
+  File "/home/garai/miniconda3/envs/rl/lib/python3.12/site-packages/torch/utils/tensorboard/writer.py", line 386, in add_scalar
+    self._get_file_writer().add_summary(summary, global_step, walltime)
+  File "/home/garai/miniconda3/envs/rl/lib/python3.12/site-packages/torch/utils/tensorboard/writer.py", line 116, in add_summary
+    self.add_event(event, global_step, walltime)
+  File "/home/garai/miniconda3/envs/rl/lib/python3.12/site-packages/torch/utils/tensorboard/writer.py", line 100, in add_event
+    self.event_writer.add_event(event)
+  File "/home/garai/miniconda3/envs/rl/lib/python3.12/site-packages/tensorboard/summary/writer/event_file_writer.py", line 117, in add_event
+    self._async_writer.write(event.SerializeToString())
+  File "/home/garai/miniconda3/envs/rl/lib/python3.12/site-packages/tensorboard/summary/writer/event_file_writer.py", line 171, in write
+    self._check_worker_status()
+  File "/home/garai/miniconda3/envs/rl/lib/python3.12/site-packages/tensorboard/summary/writer/event_file_writer.py", line 212, in _check_worker_status
+    raise exception
+  File "/home/garai/miniconda3/envs/rl/lib/python3.12/threading.py", line 1075, in _bootstrap_inner
+    self.run()
+  File "/home/garai/miniconda3/envs/rl/lib/python3.12/site-packages/tensorboard/summary/writer/event_file_writer.py", line 244, in run
+    self._run()
+  File "/home/garai/miniconda3/envs/rl/lib/python3.12/site-packages/tensorboard/summary/writer/event_file_writer.py", line 275, in _run
+    self._record_writer.write(data)
+  File "/home/garai/miniconda3/envs/rl/lib/python3.12/site-packages/tensorboard/summary/writer/record_writer.py", line 40, in write
+    self._writer.write(header + header_crc + data + footer_crc)
+  File "/home/garai/miniconda3/envs/rl/lib/python3.12/site-packages/tensorboard/compat/tensorflow_stub/io/gfile.py", line 775, in write
+    self.fs.append(self.filename, file_content, self.binary_mode)
+  File "/home/garai/miniconda3/envs/rl/lib/python3.12/site-packages/tensorboard/compat/tensorflow_stub/io/gfile.py", line 167, in append
+    self._write(filename, file_content, "ab" if binary_mode else "a")
+  File "/home/garai/miniconda3/envs/rl/lib/python3.12/site-packages/tensorboard/compat/tensorflow_stub/io/gfile.py", line 171, in _write
+    with io.open(filename, mode, encoding=encoding) as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: b'./logs/mountaincar_optuna//trial21_qlearning_20261021-163403/events.out.tfevents.1792593243.Deusto-2022-019.26430.21'
+[W 2026-10-21 16:34:25,443] Trial 21 failed with value None.
+Traceback (most recent call last):
+  File "/home/garai/RL/experiments_3/experiment_3.4_mountaincar_optuna.py", line 75, in <module>
+    print("Best trial: #{} with average reward {:.2f}".format(best_trial.number, best_trial.value))
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/garai/miniconda3/envs/rl/lib/python3.12/site-packages/optuna/study/study.py", line 502, in optimize
+    _optimize(
+  File "/home/garai/miniconda3/envs/rl/lib/python3.12/site-packages/optuna/study/_optimize.py", line 68, in _optimize
+    _optimize_sequential(
+  File "/home/garai/miniconda3/envs/rl/lib/python3.12/site-packages/optuna/study/_optimize.py", line 165, in _optimize_sequential
+    frozen_trial_id = _run_trial(study, func, catch)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/garai/miniconda3/envs/rl/lib/python3.12/site-packages/optuna/study/_optimize.py", line 263, in _run_trial
+    raise func_err
+  File "/home/garai/miniconda3/envs/rl/lib/python3.12/site-packages/optuna/study/_optimize.py", line 206, in _run_trial
+    value_or_values = func(trial)
+                      ^^^^^^^^^^^
+  File "/home/garai/RL/experiments_3/experiment_3.4_mountaincar_optuna.py", line 45, in objective
+    avg_reward, avg_steps = evaluate_policy(algo.env, algo.q_table, max_policy, n_episodes=100)
+  File "/home/garai/RL/experiments_3/../deustorl-20261005T183853Z-1-001/deustorl/Q_learning.py", line 41, in learn
+    tblogger.log(episode_reward, episode_steps)
+  File "/home/garai/RL/experiments_3/../deustorl-20261005T183853Z-1-001/deustorl/helpers.py", line 106, in log
+    self.tb_writer.add_scalar("train/reward", average_rewards, self.total_steps)
+  File "/home/garai/miniconda3/envs/rl/lib/python3.12/site-packages/torch/utils/tensorboard/writer.py", line 386, in add_scalar
+    self._get_file_writer().add_summary(summary, global_step, walltime)
+  File "/home/garai/miniconda3/envs/rl/lib/python3.12/site-packages/torch/utils/tensorboard/writer.py", line 116, in add_summary
+    self.add_event(event, global_step, walltime)
+  File "/home/garai/miniconda3/envs/rl/lib/python3.12/site-packages/torch/utils/tensorboard/writer.py", line 100, in add_event
+    self.event_writer.add_event(event)
+  File "/home/garai/miniconda3/envs/rl/lib/python3.12/site-packages/tensorboard/summary/writer/event_file_writer.py", line 117, in add_event
+    self._async_writer.write(event.SerializeToString())
+  File "/home/garai/miniconda3/envs/rl/lib/python3.12/site-packages/tensorboard/summary/writer/event_file_writer.py", line 171, in write
+    self._check_worker_status()
+  File "/home/garai/miniconda3/envs/rl/lib/python3.12/site-packages/tensorboard/summary/writer/event_file_writer.py", line 212, in _check_worker_status
+    raise exception
+  File "/home/garai/miniconda3/envs/rl/lib/python3.12/threading.py", line 1075, in _bootstrap_inner
+    self.run()
+  File "/home/garai/miniconda3/envs/rl/lib/python3.12/site-packages/tensorboard/summary/writer/event_file_writer.py", line 244, in run
+    self._run()
+  File "/home/garai/miniconda3/envs/rl/lib/python3.12/site-packages/tensorboard/summary/writer/event_file_writer.py", line 275, in _run
+    self._record_writer.write(data)
+  File "/home/garai/miniconda3/envs/rl/lib/python3.12/site-packages/tensorboard/summary/writer/record_writer.py", line 40, in write
+    self._writer.write(header + header_crc + data + footer_crc)
+  File "/home/garai/miniconda3/envs/rl/lib/python3.12/site-packages/tensorboard/compat/tensorflow_stub/io/gfile.py", line 775, in write
+    self.fs.append(self.filename, file_content, self.binary_mode)
+  File "/home/garai/miniconda3/envs/rl/lib/python3.12/site-packages/tensorboard/compat/tensorflow_stub/io/gfile.py", line 167, in append
+    self._write(filename, file_content, "ab" if binary_mode else "a")
+  File "/home/garai/miniconda3/envs/rl/lib/python3.12/site-packages/tensorboard/compat/tensorflow_stub/io/gfile.py", line 171, in _write
+    with io.open(filename, mode, encoding=encoding) as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: b'./logs/mountaincar_optuna//trial21_qlearning_20261021-163403/events.out.tfevents.1792593243.Deusto-2022-019.26430.21'
